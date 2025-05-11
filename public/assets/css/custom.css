@@ -1,0 +1,12 @@
+/***
+Custom Stylesheet
+***/
+
+/** Navbar **/
+.bg-nav {
+	background-color: #003c67;
+}
+
+.navbar-nav span:hover {
+	cursor: pointer;
+}
