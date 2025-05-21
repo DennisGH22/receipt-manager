@@ -2,6 +2,27 @@
 Custom Stylesheet
 ***/
 
+html {
+  line-height: 1.15; /* 1 */
+  -webkit-text-size-adjust: 100%; /* 2 */
+}
+
+main {
+	margin: -40px;
+}
+
+body {
+	overflow: hidden;
+	margin: 0;
+}
+
+h1 {
+  font-size: 6em;
+	line-height: 1;
+}
+
+
+
 /** Navbar **/
 .bg-nav {
 	background-color: #003c67;
@@ -9,4 +30,9 @@ Custom Stylesheet
 
 .navbar-nav span:hover {
 	cursor: pointer;
+}
+
+.bg-custom {
+	background: #020024;
+	background: linear-gradient(90deg, rgba(2, 0, 36, 1) 0%, rgba(9, 9, 121, 1) 35%, rgba(0, 212, 255, 1) 100%);
 }
